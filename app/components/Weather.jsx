@@ -17,6 +17,7 @@ var Weather = React.createClass({
   },
   render: function () {
     var {temp, location} = this.state;
+
     return (
       <div>
         <h3>Get Weather</h3>
